@@ -16,7 +16,7 @@ by the group.
 | Question | Decision |
 |---|---|
 | Editors | Maintainer plus a few trusted people, via GitHub pull requests |
-| Relationship to UO Companion knowledge base | Separate repo and site; cross-link for general game info |
+| Relationship to UO Companion knowledge base | Separate repo and site; the wiki does not reference UO Companion at all (UOCompanion is only the GitHub org) |
 | Scope of v1 | Skeleton only: structure, stubs, workflow |
 | Generator | MkDocs with the Material theme |
 | Hosting | GitHub Pages, built by a workflow on GitHub-hosted runners. No self-hosted runner, no Cloudflare Pages |
@@ -107,7 +107,7 @@ Every page carries a one-paragraph purpose statement and section headings mirror
 corresponding old wiki page, so migrators have a map. No prose is copied in v1.
 
 - `index.md`: what the Coalition is in two sentences, cards linking to About, Guides,
-  Contributing, and a note that UO Companion covers base Ultima Online, not Outlands.
+  Contributing. No reference to UO Companion.
 - `about.md`: mission and conduct, written for the whole coalition rather than one guild.
   Stub headings: Who we are, How we operate, Conduct, Member guilds, Contact.
 - `guides/*.md`: headings taken from the old pages of the same name.
