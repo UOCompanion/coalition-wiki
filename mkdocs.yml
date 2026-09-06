@@ -1,0 +1,38 @@
+site_name: The Coalition Wiki
+site_description: Shared reference for the Coalition, the Ultima Online Outlands boating community
+site_url: https://wiki.thecoalition.app/
+repo_url: https://github.com/UOCompanion/coalition-wiki
+repo_name: UOCompanion/coalition-wiki
+edit_uri: edit/main/docs/
+
+# Design docs and plans live under docs/superpowers and are never rendered.
+exclude_docs: |
+  superpowers/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.tabs.link
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+  - awesome-nav
