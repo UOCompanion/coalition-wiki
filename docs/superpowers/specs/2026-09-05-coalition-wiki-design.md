@@ -107,7 +107,7 @@ Every page carries a one-paragraph purpose statement and section headings mirror
 corresponding old wiki page, so migrators have a map. No prose is copied in v1.
 
 - `index.md`: what the Coalition is in two sentences, cards linking to About, Guides,
-  Contributing, and to the UO Companion knowledge base for general game reference.
+  Contributing, and a note that UO Companion covers base Ultima Online, not Outlands.
 - `about.md`: mission and conduct, written for the whole coalition rather than one guild.
   Stub headings: Who we are, How we operate, Conduct, Member guilds, Contact.
 - `guides/*.md`: headings taken from the old pages of the same name.
