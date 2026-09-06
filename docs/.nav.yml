@@ -1,2 +1,5 @@
 nav:
   - Home: index.md
+  - About: about.md
+  - Guides: guides
+  - Contributing: contributing.md
