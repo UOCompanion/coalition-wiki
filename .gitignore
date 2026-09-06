@@ -2,3 +2,5 @@ site/
 .venv/
 __pycache__/
 .cache/
+docs/superpowers/
+.superpowers/
